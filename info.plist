@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>APIdock</string>
+	<key>ordering</key>
+	<array>
+		<string>78EFACB7-3142-4E58-9016-4F47FC67B563</string>
+		<string>F909246B-B631-4942-B6F0-DD285883214D</string>
+	</array>
+	<key>uuid</key>
+	<string>C7FE2DF7-09A1-41F4-9131-9C443D96EDED</string>
+</dict>
+</plist>

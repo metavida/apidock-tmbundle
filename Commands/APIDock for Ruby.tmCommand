@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+url = "http://apidock.com/ruby/search/quick?query=" + ENV['TM_CURRENT_WORD']
+puts &lt;&lt;-HTML
+&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta http-equiv="Refresh" content="0;URL=#{url}"&gt;
+ &lt;/head&gt;
+ &lt;body&gt;Searching APIdock...&lt;/body&gt;
+&lt;/html&gt;
+HTML</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>APIdock for Ruby</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>source.ruby, source.ruby.rails</string>
+	<key>uuid</key>
+	<string>F909246B-B631-4942-B6F0-DD285883214D</string>
+</dict>
+</plist>
