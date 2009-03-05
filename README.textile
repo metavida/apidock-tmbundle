@@ -1,0 +1,26 @@
+h1. Overview
+
+A TextMate bundle that lets you easily jump to relevant documentation on APIdock.com
+
+h1. Installation
+
+h2. To install with Git:
+
+<pre>
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
+git clone git://github.com/metavida/apidock-tmbundle.git "APIdock.tmbundle"
+osascript -e 'tell app "TextMate" to reload bundles'
+</pre>
+
+h2. To install without Git:
+
+<pre>
+mkdir -p ~/Library/Application\ Support/TextMate/Bundles
+cd ~/Library/Application\ Support/TextMate/Bundles
+wget http://github.com/metavida/apidock-tmbundle/tarball/master
+tar zxf metavida-apidock-tmbundle*.tar.gz
+rm metavida-apidock-tmbundle*.tar.gz
+mv metavida-apidock-tmbundle* "APIdock.tmbundle"
+osascript -e 'tell app "TextMate" to reload bundles'
+</pre>
